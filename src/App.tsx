@@ -1,6 +1,7 @@
 import { use, useRef, useState } from "react";
-import Button from "./components/Button/Button"
-import Input from "./components/Button/Input";
+import Button from "./components/Button"
+import Input from "./components/Input";
+import ModalDemo from "./demoComponents/ModalDemo";
 
 function App() {
 
@@ -82,6 +83,7 @@ function App() {
 
       </form>
 
+    <ModalDemo></ModalDemo>
     </main>
   );
 }
